@@ -1,0 +1,20 @@
+{
+  "name": "leeway_heartz_project_one",
+  "version": "1.0.0",
+  "description": "REST API generation for 1)setRecord, 2) getRecord. and add this to rabbit MQ.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Anuj Kumar",
+  "license": "ISC"
+}
